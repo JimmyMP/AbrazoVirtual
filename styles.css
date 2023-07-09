@@ -45,7 +45,15 @@ h1{
     font-size: 2em;
     font-weight: bold;
 }
-p{
+p {
     font-size: 1.3em;
     font-weight: bold;
-}
+    text-align: center; /* Centrado horizontal */
+    white-space: nowrap; /* Evita envolver el texto */
+  }
+  
+  @media screen and (max-width: 342px) {
+    p {
+      white-space: normal; /* Permite envolver el texto */
+    }
+  }
