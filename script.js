@@ -16,5 +16,5 @@ function cambiaMensaje4(){
 }
 setTimeout(function alerta1(){
     var nombre = "Jimmy";
-    alert(nombre + " te ha enviado un abrazo!");
+    alert(nombre + " te dice: No se me estrese Teffa :3");
 }, 5300);
