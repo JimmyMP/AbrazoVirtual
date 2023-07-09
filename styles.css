@@ -8,6 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:bisque;
 }
 
 .container{
@@ -27,17 +28,15 @@ body{
 .box_loading{
     height: 100%;
     width: 100%;
-    animation: loading 2s;
+    animation: loading 5s;
     background-color: yellowgreen;
 }
 
 @keyframes loading{
     0%{
-        
         width: 0;
     }
     100%{
-        
         width: 160px;
     }
 }
