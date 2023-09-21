@@ -12,9 +12,24 @@ function cambiaMensaje3(){
 }
 setTimeout(cambiaMensaje4,4500)
 function cambiaMensaje4(){
-    document.getElementById("loading_message").innerText = "Abrazo enviado"
+    document.getElementById("loading_message").innerText = "Flor Amarilla Enviada"
 }
+setTimeout(cambiarSVG, 4500);
+
+
 setTimeout(function alerta1(){
     var nombre = "Jimmy";
-    alert(nombre + " te dice: No se me estrese Teffa :3");
+    alert(nombre + " te dice: Una plantita para otra plantita :3");
 }, 5300);
+
+// Función para cambiar el SVG después del proceso
+function cambiarSVG() {
+    const svgObject = document.getElementById('svg-object');
+    if (svgObject) {
+        svgObject.setAttribute('data', 'Canola-Plant.svg');
+    }
+}
+
+// Llamada a la función después de que termine el proceso
+// Supongamos que el proceso tarda 2 segundos (2000 milisegundos)
+setTimeout(cambiarSVG, 6000);
