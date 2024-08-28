@@ -12,7 +12,7 @@ function cambiaMensaje3(){
 }
 setTimeout(cambiaMensaje4,4500)
 function cambiaMensaje4(){
-    document.getElementById("loading_message").innerText = "Flor Amarilla Enviada"
+    document.getElementById("loading_message").innerText = "Tulipanes Enviados"
 }
 setTimeout(cambiarSVG, 4500);
 
@@ -26,7 +26,7 @@ setTimeout(function alerta1(){
 function cambiarSVG() {
     const svgObject = document.getElementById('svg-object');
     if (svgObject) {
-        svgObject.setAttribute('data', 'Canola-Plant.svg');
+        svgObject.setAttribute('data', 'Tulipanes.svg');
     }
 }
 
