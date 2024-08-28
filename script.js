@@ -4,7 +4,7 @@ function cambiaMensaje(){
 }
 setTimeout(cambiaMensaje2,2500)
 function cambiaMensaje2(){
-    document.getElementById("loading_message").innerText = "Un poquito más..."
+    document.getElementById("loading_message").innerText = "Esta cariñoso..."
 }
 setTimeout(cambiaMensaje3,3500)
 function cambiaMensaje3(){
