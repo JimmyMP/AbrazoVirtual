@@ -17,11 +17,6 @@ function cambiaMensaje4(){
 setTimeout(cambiarSVG, 7500);
 
 
-setTimeout(function alerta1(){
-    var nombre = "Jimmy";
-    alert(nombre + " te dice: Que te quiere mucho");
-}, 8300);
-
 // Función para cambiar el SVG después del proceso
 function cambiarSVG() {
     const svgObject = document.getElementById('svg-object');
@@ -29,7 +24,10 @@ function cambiarSVG() {
         svgObject.setAttribute('data', 'Tulipanes.svg');
     }
 }
-
+setTimeout(function alerta1(){
+    var nombre = "Jimmy";
+    alert(nombre + " te dice: Que te quiere mucho");
+}, 8300);
 // Llamada a la función después de que termine el proceso
 // Supongamos que el proceso tarda 2 segundos (2000 milisegundos)
 setTimeout(cambiarSVG, 9000);
