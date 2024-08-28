@@ -19,7 +19,7 @@ setTimeout(cambiarSVG, 4500);
 
 setTimeout(function alerta1(){
     var nombre = "Jimmy";
-    alert(nombre + " te dice: Para que te recuperes :3");
+    alert(nombre + " te dice: Que te quiere mucho");
 }, 5300);
 
 // Función para cambiar el SVG después del proceso
