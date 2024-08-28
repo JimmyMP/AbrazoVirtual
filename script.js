@@ -20,7 +20,7 @@ setTimeout(cambiarSVG, 7500);
 setTimeout(function alerta1(){
     var nombre = "Jimmy";
     alert(nombre + " te dice: Que te quiere mucho");
-}, 5300);
+}, 8300);
 
 // Función para cambiar el SVG después del proceso
 function cambiarSVG() {
@@ -32,4 +32,4 @@ function cambiarSVG() {
 
 // Llamada a la función después de que termine el proceso
 // Supongamos que el proceso tarda 2 segundos (2000 milisegundos)
-setTimeout(cambiarSVG, 6000);
+setTimeout(cambiarSVG, 9000);
